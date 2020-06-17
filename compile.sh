@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-ARTIFACT=${1}
-MAINCLASS=${2}
-VERSION=${3:-0.0.1-SNAPSHOT}
+ARTIFACT=gateway
+MAINCLASS=com.example.gateway.GatewayApplication
+VERSION=0.0.1-SNAPSHOT
 
 JAR="${ARTIFACT}-${VERSION}.jar"
 
